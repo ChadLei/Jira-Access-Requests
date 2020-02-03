@@ -47,7 +47,7 @@ Extra files (not needed/connected to main files):
 Helpful Links
 =============
 
-Crowd Python API: https://github.com/pycontribs/python-crowd
-Example quickstart: https://pypi.org/project/jira/
-To find field names from Jira: https://jira.readthedocs.io/en/master/jirashell.html
+Crowd Python API: https://github.com/pycontribs/python-crowd  
+Example quickstart: https://pypi.org/project/jira/  
+To find field names from Jira: https://jira.readthedocs.io/en/master/jirashell.html  
 Access request screen: https://issues.ngptools.com/jira/secure/admin/ConfigureFieldScreen.jspa?id=12040
