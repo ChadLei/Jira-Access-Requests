@@ -6,9 +6,9 @@ This script handles all incoming access request type tasks that involved creatin
 Required Libraries
 =============
 
-crowd
-jira
-emoji (for visual purposes)
+crowd  
+jira  
+emoji (for visual purposes)  
 
 To Run
 =============
