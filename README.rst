@@ -1,13 +1,21 @@
 Access Request Script
 =============
 
-Helpful Links
+This script handles all incoming access request type tasks that involved creating new users in Crowd as well as reactivating/deactivating users. Currently does not support updating user information since requests are unique and tickets are not strict on input format.
+
+Required Libraries
 =============
 
-Crowd Python API: https://github.com/pycontribs/python-crowd
-Example quickstart: https://pypi.org/project/jira/
-To find field names from Jira: https://jira.readthedocs.io/en/master/jirashell.html
-Access request screen: https://issues.ngptools.com/jira/secure/admin/ConfigureFieldScreen.jspa?id=12040
+crowd
+jira
+emoji (for visual purposes)
+
+To Run
+=============
+
+```python
+python access_requests.py
+```
 
 Files
 =============
@@ -35,3 +43,11 @@ Extra files (not needed/connected to main files):
 *jira_api.py*
 
 * Used to play around with the jira api and to learn more
+
+Helpful Links
+=============
+
+Crowd Python API: https://github.com/pycontribs/python-crowd
+Example quickstart: https://pypi.org/project/jira/
+To find field names from Jira: https://jira.readthedocs.io/en/master/jirashell.html
+Access request screen: https://issues.ngptools.com/jira/secure/admin/ConfigureFieldScreen.jspa?id=12040
