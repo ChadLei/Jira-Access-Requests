@@ -126,7 +126,7 @@ def search_user_info(cs, email):
 def complete_request():
     count = 0
     try:
-        # Create the jira object and find issues currently assigned
+        # Create the jira object and find issues currently assigned (MODIFY W/ YOUR OWN CREDNTIALS)
         jira = JIRA(basic_auth=('chadlei', 'password1234567'), options={'server': 'https://issues.ngptools.com/jira/'})
         access_requests = find_issues(jira)['Access Request']
         # access_requests = [1]

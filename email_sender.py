@@ -7,12 +7,12 @@ def completion_email(username, ticket_number, request_type):
         # Set up the SMTP server
         server = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
         server.starttls()
-        server.login('chad.lei@perficient.com', 'Ilovegreentea4!')
+        server.login('chad.lei@perficient.com', 'Ilovegreentea4!') # (MODIFY W/ YOUR OWN CREDNTIALS)
         server.ehlo()
 
         # Email content information
-        FROM = "chad.lei@perficient.com"
-        TO = ['cblei@uci.edu']
+        FROM = "chad.lei@perficient.com" # (MODIFY W/ YOUR OWN CREDNTIALS)
+        TO = ['cblei@uci.edu'] # (MODIFY W/ YOUR OWN CREDNTIALS)
         SUBJECT = "Ticket completed: %s %s" % (ticket_number, request_type)
         TEXT = '''Hey buddy, here's the information you're looking for: \r\n
         Crowd User: https://crowd.ngptools.com/crowd/console/secure/user/view!execute.action?name=%s&directoryID=8454145\r\n
@@ -45,8 +45,8 @@ def panic_email(username, ticket_number, request_type):
         server.ehlo()
 
         # Email content information
-        FROM = "chad.lei@perficient.com"
-        TO = ['cblei@uci.edu']
+        FROM = "chad.lei@perficient.com" # (MODIFY W/ YOUR OWN CREDNTIALS)
+        TO = ['cblei@uci.edu'] # (MODIFY W/ YOUR OWN CREDNTIALS)
         SUBJECT = "Attention Required: %s %s" % (ticket_number, request_type)
         TEXT = '''Hey buddy, here's the information you're looking for: \r\n
         Crowd User: https://crowd.ngptools.com/crowd/console/secure/user/view!execute.action?name=%s&directoryID=8454145\r\n
@@ -74,12 +74,12 @@ def send_email(username, email):
         # Set up the SMTP server
         server = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
         server.starttls()
-        server.login('chad.lei@perficient.com', 'Ilovegreentea4!')
+        server.login('chad.lei@perficient.com', 'Ilovegreentea4!') # (MODIFY W/ YOUR OWN CREDNTIALS)
         server.ehlo()
         print 'Finalizing ticket completion ....'
 
         # Email content information
-        FROM = "chad.lei@perficient.com"
+        FROM = "chad.lei@perficient.com" # (MODIFY W/ YOUR OWN CREDNTIALS)
         TO = [email]
         SUBJECT = "Your User Name to access the FordDirect Collaboration Tools (JIRA & WIKI)"
         TEXT = '''Welcome to NGPTools, the Collaborative Toolset we use at FordDirect. Your User Name is:\r\n

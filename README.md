@@ -10,6 +10,15 @@ crowd
 jira  
 emoji (for visual purposes)  
 
+Installation Instructions
+=============
+
+1. Install the dependencies  
+```python
+pip install -r requirements.txt  
+```  
+2. Modify access_requests.py & email_sender.py with your own username and password
+
 To Run
 =============
 
